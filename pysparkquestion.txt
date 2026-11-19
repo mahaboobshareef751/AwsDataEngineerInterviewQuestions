@@ -1,0 +1,71 @@
+15 practice questions
+
+4/15 completed
+1. Basic PySpark coding questions
+2. Create a Spark DataFrame from a list of employee records.
+3. Select specific columns from a DataFrame.
+4. Filter employees whose salary is greater than 50,000.
+5. Find employees with salary between 30,000 and 70,000.
+6. Add a new column using withColumn().
+7. Rename a column and drop an unwanted column.
+8. Find duplicate records and remove duplicates.
+9. Handle NULL values using isNull(), fillna() and dropna().
+10. Replace values in a column using when() and otherwise().
+11. Sort employees by salary in descending order.
+12. Convert a string column into an integer.
+13. Split a full name into first name and last name.
+14. Find the length of a string and convert text to uppercase.
+15. Extract year, month and day from a date column.
+16. Read a CSV file and write the output to Parquet.
+
+data = "/data/file/data.csv"
+
+df =spark.read.csv(data, header = "True", inferSchema = "True")
+df.write.mode("overwrite").format("parquet").save(/data/file/data.parquet).show()
+
+
+2. Intermediate PySpark coding questions
+
+These are especially important for Data Engineer interviews.
+
+15 practice questionsN
+
+0/15 completed
+
+1. Find the highest-paid employee in each department.
+2. Find the second-highest salary without using a Python loop.
+3. Find employees earning more than their managers.
+4. Find the top 3 highest-paid employees in each department.
+5. Count employees in each department.
+6. Calculate total, average, minimum and maximum salary by department.
+7. Find duplicate employee IDs and their counts.
+8. Find records present in one DataFrame but missing from another.
+9. Perform inner, left, right and full outer joins.
+10. Join two DataFrames using multiple columns.
+11. Find departments whose average salary is greater than 60,000.
+12. Calculate cumulative salary using a window function.
+13. Find each employee's previous salary using lag().
+14. Find the difference between current and previous month's sales.
+15. Keep only the latest record for each customer using row_number().
+
+
+3. Advanced PySpark coding questions
+
+15 practice questions
+
+0/15 completed
+
+1. Calculate a running total of sales for each customer.
+2. Find the top 3 products by revenue in each category.
+3. Find consecutive days on which a customer made transactions.
+4. Find gaps between consecutive transactions using lag().
+5. Calculate a 7-day moving average of sales.
+6. Deduplicate records using the latest timestamp and a tie-breaker.
+7. Pivot monthly sales into separate columns.
+8. Unpivot multiple columns into rows.
+9. Flatten nested JSON containing arrays and structs using explode().
+10. Combine multiple DataFrames using unionByName().
+11. Implement incremental processing using a watermark or last-processed timestamp.
+12. Implement a Type 2 Slowly Changing Dimension (SCD) using change detection.
+13. Optimize a large-table join with a small-table broadcast join.
+14. Handle data skew in a large join.

@@ -1,0 +1,85 @@
+Python coding questions for AWS Data Engineer interviews
+These are commonly asked in Python coding rounds.
+1. String coding questions
+==================================
+1. Reverse a string.
+2. Check whether a string is a palindrome.
+3. Remove duplicate characters from a string.
+4. Count the frequency of each character.
+5. Find the first non-repeating character.
+6. Find duplicate characters in a string.
+7. Count vowels and consonants.
+8. Reverse each word in a sentence.
+9. Check whether two strings are anagrams.
+10. Find the longest word in a sentence.
+----------------------------------------------------------
+2. List coding questions
+===========================
+1. Find the maximum and minimum numbers in a list.
+2. Find the second-largest number.
+3. Remove duplicates from a list.
+4. Find common elements between two lists.
+5. Find missing numbers in a list.
+6. Flatten a nested list.
+7. Sort a list without using sort().
+8. Separate even and odd numbers.
+9. Find pairs whose sum equals a target.
+10. Move all zeros to the end of a list.
+11. Find duplicate elements in a list.
+12. Find the intersection and difference of two lists.
+
+3. Dictionary coding questions
+====================================
+1. Count the frequency of each element in a list.
+2. Sort a dictionary by values.
+3. Find the key with the maximum value.
+4. Merge two dictionaries.
+5. Remove duplicate values from a dictionary.
+6. Group employees by department.
+7. Convert two lists into a dictionary.
+8. Find common keys between two dictionaries.
+9. Reverse keys and values.
+10. Find the second-highest salary from an employee dictionary.
+
+4. Number-based coding questions
+======================================
+1. Find the factorial of a number.
+2. Check whether a number is prime.
+3. Print Fibonacci series.
+4. Check whether a number is an Armstrong number.
+5. Check whether a number is a palindrome.
+6. Find the sum of digits.
+7. Reverse a number.
+8. Find GCD and LCM.
+9. Check whether a number is perfect.
+10. Find the missing number from 1 to N.
+
+5. Functions, loops and Python concepts
+============================================
+1. Difference between append() and extend().
+2. Difference between list, tuple, set and dictionary.
+3. Difference between == and is.
+4. What are *args and **kwargs?
+5. What is a lambda function?
+6. Explain list comprehension with an example.
+7. What is a generator? How is yield used?
+8. Explain exception handling using try, except, and finally.
+9. What is the difference between shallow copy and deep copy?
+10. What are decorators?
+
+6. Data Engineer-specific Python coding questions
+===================================================
+These are especially useful because they relate to real ETL and data-processing work.
+
+1. Read a CSV file and identify null values.
+2. Remove duplicate records from a dataset.
+3. Find the employee with the highest salary in each department.
+4. Count records based on a particular column.
+5. Compare two datasets and find missing records.
+6. Convert a list of dictionaries into a DataFrame.
+7. Handle missing values in a dataset.
+8. Read multiple CSV files from a folder.
+9. Validate data types in a dataset.
+10. Process a large file line by line without loading the entire file into memory.
+11. Find duplicate records based on selected columns.
+12. Write data to a CSV or JSON file.

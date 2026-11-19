@@ -1,0 +1,104 @@
+AWS Data Engineer – Interview Questions
+1. Amazon S3 – Storage
+============================================
+1. What is Amazon S3?
+2. What is an S3 bucket?
+3. What is an S3 object?
+4. What are the different S3 storage classes?
+5. What is the difference between S3 Standard and S3 Glacier?
+6. What is S3 Versioning?
+7. What is S3 Lifecycle Management?
+8. How do you secure an S3 bucket?
+9. What is the difference between an IAM policy and an S3 bucket policy?
+10. What is S3 Replication? Explain CRR and SRR.
+11. How do you handle duplicate files in S3?
+12. What is the difference between S3 and HDFS?
+13. How do you upload large files to S3?
+14. How do you enable encryption in an S3 bucket?
+
+2. AWS Glue – ETL Service
+=============================
+
+1. What is AWS Glue?
+2. How does AWS Glue work internally?
+3. What is a Glue Data Catalog?
+4. What is a Glue Crawler?
+5. What is the difference between a DynamicFrame and a DataFrame?
+6. How do you read multiple CSV files from S3 using Glue and PySpark?
+7. How do you convert CSV files into Parquet format?
+8. How do you implement incremental data loading?
+9. How do you handle schema evolution?
+10. How do you handle late-arriving data?
+11. How do you monitor failed Glue jobs?
+12. How do you send email notifications when a Glue job fails?
+13. How do you load transformed data from S3 into Amazon Redshift?
+14. What are AWS Glue Job Bookmarks?
+15. How do you optimize the performance of an AWS Glue job?
+
+3. AWS Lambda – Serverless Computing
+==========================================
+1. What is AWS Lambda?
+2. What are Lambda triggers?
+3. How do you trigger Lambda when a file is uploaded to S3?
+4. What is the difference between AWS Lambda and AWS Glue?
+5. What is the maximum execution timeout of Lambda?
+6. How do you monitor Lambda failures?
+7. What is the difference between Lambda and EC2?
+
+4. AWS IAM – Access Management
+=================================
+1. What is AWS IAM?
+2. What is an IAM user?
+3. What is an IAM role?
+4. What is an IAM policy?
+5. What is the difference between an IAM role and an IAM user?
+6. How do you provide S3 access to Databricks or AWS Glue using an IAM role?
+7. What is the principle of least privilege?
+
+5. Amazon Redshift – Data Warehousing
+=======================================
+1. What is Amazon Redshift?
+2. How do you load data from S3 into Redshift?
+3. What is the Redshift COPY command?
+4. What is the difference between Redshift and Amazon S3?
+5. What is the difference between a fact table and a dimension table?
+6. What is the difference between Star Schema and Snowflake Schema?
+7. How do you optimize query performance in Redshift?
+
+6. Amazon EMR – Data Processing
+=========================================
+1. What is Amazon EMR?
+2. Explain EMR architecture.
+3. Difference between AWS Glue and EMR.
+4. Difference between EMR and Databricks.
+5. What are Master, Core, and Task nodes?
+6. What is EMRFS?
+7. How do you run PySpark jobs on EMR?
+8. How do you optimize EMR Spark jobs?
+9. How do you monitor and troubleshoot EMR jobs?
+10. How do you reduce EMR cluster costs?
+
+6. Databricks + S3 Integration
+==========================================
+1. How do you connect Databricks to Amazon S3?
+2. How do you read multiple CSV files from S3 using PySpark?
+3. How do you use an IAM role to access S3 from Databricks?
+4. How do you convert CSV files to Parquet?
+5. How do you implement incremental data loading in Databricks?
+6. How do you handle schema evolution using Delta Lake?
+7. What is the difference between partition pruning and predicate pushdown?
+8. How do you optimize a slow-running Spark job?
+7. Real-Time AWS Data Engineering Scenarios
+
+
+These are especially important for experienced Data Engineer interviews.
+1. How do you handle duplicate records in a data pipeline?
+2. How do you handle null values in PySpark?
+3. How do you handle late-arriving data?
+4. How do you implement incremental loading?
+5. How do you handle schema changes in source data?
+6. How do you handle corrupted files in S3?
+7. How do you recover a failed AWS Glue job?
+8. How do you design an end-to-end AWS data pipeline?
+9. How do you handle data quality checks?
+10. How do you optimize a large-volume data processing pipeline?
